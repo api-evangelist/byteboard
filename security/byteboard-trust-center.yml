@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: homepage compliance badge + live Vanta-hosted trust center
+url: https://trust.byteboard.dev/
+platform: Vanta
+certifications:
+- SOC 2
+evidence:
+- source: https://trust.byteboard.dev/
+  kind: trust-center
+  note: live Vanta-hosted trust center (HTTP 200); page body is a JavaScript SPA so
+    certification names are not in the raw HTML
+- source: https://www.byteboard.dev/
+  kind: homepage-badge
+  note: SOC 2 compliance badge displayed in the site footer

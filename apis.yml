@@ -1,8 +1,14 @@
 aid: byteboard
 name: Byteboard
-description: 'Byteboard is a company surfaced as a portfolio company of cowboy-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: future-of-work. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Byteboard is a technical interview platform for software engineering hiring. It replaces
+  traditional whiteboard interviews with project-based, real-world assessments and live coding interviews
+  that measure practical skills such as systems design, code quality, and communication across 20+
+  engineering competencies. Candidate work is anonymized and evaluated by trained human graders against
+  calibrated rubrics to reduce bias and interviewer time while improving hire quality. Founded to fix
+  the false positives, prep burden, and inequities of conventional coding interviews, Byteboard integrates
+  with applicant tracking systems (Greenhouse) and is now part of Karat. Byteboard exposes no public
+  developer API; this API Evangelist profile captures its company identity, web properties, domain
+  security posture, and compliance program.'
 url: https://raw.githubusercontent.com/api-evangelist/byteboard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - cowboy-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/651fc33e7bc41545fca48c96/657a5fc4bf9cb49e3067e13d_white-fullmark.svg
 tags:
 - Company
 - Future Of Work
+- Technical Interviews
+- Hiring
+- Recruiting
+- Developer Assessment
+- Coding Assessment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/byteboard-domain-security.yml
+- type: TrustCenter
+  url: security/byteboard-trust-center.yml
+- type: Compliance
+  url: https://trust.byteboard.dev/
 - type: Website
   url: https://byteboard.dev
+- type: Blog
+  url: https://www.byteboard.dev/blog
+- type: TermsOfService
+  url: https://www.byteboard.dev/terms
+- type: PrivacyPolicy
+  url: https://www.byteboard.dev/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
